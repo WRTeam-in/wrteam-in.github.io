@@ -84,8 +84,6 @@ lib/core/
 - **`constants/`**: Stores application-wide constant values.
 
   - `theme_constants.dart`: Theme-related constants like spacing values, animation durations, etc.
-  - `api_endpoints_constants.dart`: Defines base URLs and potentially global API endpoint paths.
-  - `api_body_parameter_labels.dart`: Constants for API request body parameter labels for consistency.
   - `assets_constants.dart`: Constants for image and other asset paths.
 
 - **`api/`**: Sets up core API client configurations.
