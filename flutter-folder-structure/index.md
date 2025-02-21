@@ -1,4 +1,4 @@
-# Flutter Template App Architecture
+# Flutter App Architecture
 
 This document provides an overview of the recommended architecture for Flutter applications built using this template. The architecture is designed to promote modularity, maintainability, testability, and scalability, especially for apps with multiple features.
 
