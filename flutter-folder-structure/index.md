@@ -16,6 +16,7 @@ lib/
 ├── commons/
 │   ├── widgets/
 │   ├── models/
+│   │   └── enums/
 │   ├── blocs/
 │   └── repositories/
 ├── features/
@@ -102,12 +103,13 @@ This directory contains code that is shared across the entire application and is
 lib/commons/
 ├── widgets/                    # Globally reusable widgets
 ├── models/                     # App-wide models
+│   └── enums/                  # App-wide enums
 ├── blocs/                      # Global Bloc/Cubits/Controllers
 └── repositories/               # Global Data Repositories
 ```
 
 - **`widgets/`**: Contains globally reusable UI widgets that can be used across different features. These widgets are designed to be generic and not feature-specific.
-- **`models/`**: Contains data models that are used across different features of the application.
+- **`models/`**: Contains data models & enums that are used across different features of the application.
 - **`blocs/`**: Contains globally accessible Bloc, Cubits, or Controllers that manage application-wide state or logic.
 - **`repositories/`**: Houses data repositories that are used across multiple features.
 
