@@ -253,4 +253,8 @@ By following these naming conventions, you will create a more organized, readabl
 3.  **Implement feature components:** Develop screens, widgets, blocs, models, and repositories within each feature directory, following the established conventions.
 4.  **Utilize `core/` modules:** Leverage the core modules for shared functionalities like theme management, localization, and cross-feature communication.
 
+### To create the Project structure and Feature folders automatically, you can use the Dart scripts
+[Dart Scripts](https://wrteam-in.github.io/flutter-folder-structure/scripts)
+
+
 This architecture provides a solid foundation for building robust and scalable Flutter applications. Remember to adapt and extend this template to suit the specific needs and complexity of your project.
